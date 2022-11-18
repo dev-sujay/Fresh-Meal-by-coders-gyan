@@ -1,41 +1,3 @@
-/*! fonts */
-
-@font-face {
-    font-family: "Railway-regular";
-    src: url(/fonts/Raleway-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Railway-medium";
-    src: url(/fonts/Raleway-Medium.ttf);
-}
-
-@font-face {
-    font-family: "Railway-bold";
-    src: url(/fonts/Raleway-Bold.ttf);
-}
-
-@font-face {
-    font-family: "Railway-semibold";
-    src: url(/fonts/Raleway-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "Railway-black";
-    src: url(/fonts/Raleway-Black.ttf);
-}
-
-@font-face {
-    font-family: "Railway-extrabold";
-    src: url(/fonts/Raleway-ExtraBold.ttf);
-}
-
-
-
-
-
-
-
 
 /*! colors */
 
@@ -157,7 +119,9 @@
 }
 
 .section-heading {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     text-align: center;
     position: relative;
     margin: 6rem;
@@ -204,7 +168,8 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    font-family: "Railway-regular";
+    font-family: "Raleway";
+    font-weight: 400;
     scroll-behavior: smooth;
 
 }
@@ -255,7 +220,9 @@ body {
 .topbar {
     background: var(--secondary);
     color: var(--pure);
-    font-family: "Railway-semibold";
+    font-family: "Raleway";
+    font-weight: 600;
+    font-weight: 600;
     padding: 0.75rem 0;
 }
 
@@ -291,13 +258,16 @@ nav .top {
 
 nav .top .contact h5,
 nav .top .time h5 {
-    font-family: "Railway-black";
+    font-family: "Raleway";
+    font-weight: 900;
     margin-bottom: 0.25rem;
 }
 
 nav .top .contact h6,
 nav .top .time h6 {
-    font-family: "Railway-medium";
+    font-family: "Raleway";
+    
+    font-weight: bold;
     letter-spacing: 0.055rem;
     font-size: 0.75rem;
     color: var(--ternary);
@@ -322,7 +292,9 @@ nav .top .time img {
 nav .navbar .container a {
     text-decoration: none;
     color: var(--secondary);
-    font-family: "Railway-semibold";
+    font-family: "Raleway";
+    font-weight: 600;
+    font-weight: 600;
     font-size: 1rem;
     padding: 1rem 1.5rem;
     transition: all 0.3s ease;
@@ -363,13 +335,16 @@ section.hero .welcome {
 }
 
 section.hero .welcome span {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     color: var(--secondary);
     margin-right: 0.75rem;
 }
 
 section.hero h1 {
-    font-family: "Railway-extrabold";
+    font-family: "Raleway";
+    font-weight: 800;
     color: var(--secondary);
     font-size: 2.5rem;
     margin-bottom: 0.75rem;
@@ -380,7 +355,8 @@ section.hero h1 span {
 }
 
 section.hero .container p {
-    font-family: "Railway-regular";
+    font-family: "Raleway";
+    font-weight: 400;
     width: 50%;
     line-height: 1.5;
     margin-bottom: 1rem;
@@ -443,7 +419,9 @@ hr {
 }
 
 .food-card h2 {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     font-size: 1.3rem;
     margin-bottom: 0.25rem;
 }
@@ -454,13 +432,16 @@ hr {
 }
 
 .food-card .price {
-    font-family: "Railway-medium";
+    font-family: "Raleway";
+    font-weight: 500;
+
     color: var(--danger);
     margin: 0.5rem 0 1rem 0;
 }
 
 .food-card button {
-    font-family: "Railway-medium";
+    font-family: "Raleway";
+    font-weight: 500;
     color: var(--secondary);
     background-color: var(--heaven);
     border: 2px solid var(--primary);
@@ -469,7 +450,6 @@ hr {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    width: 50%;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -556,7 +536,9 @@ hr {
 }
 
 .about-meal-wrapper h2 {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     font-size: 1.4rem;
     color: var(--secondary);
     margin-bottom: 2rem;
@@ -610,7 +592,9 @@ hr {
 }
 
 .our-services .service-card h2 {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -662,14 +646,16 @@ hr {
 }
 
 .timer div span:first-child {
-    font-family: "Railway-semibold";
+    font-family: "Raleway";
+    font-weight: 600;
     font-size: 2.5rem;
     color: var(--heaven);
     margin-bottom: 0.05rem;
 }
 
 .timer div span:last-child {
-    font-family: "Railway-medium";
+    font-family: "Raleway";
+    font-weight: 500;
     color: var(--heaven);
 
 }
@@ -712,7 +698,9 @@ section.latest-news {
 }
 
 .article-card .article-content h2 {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     font-style: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -754,13 +742,17 @@ section.subscribe {
 }
 
 .subscribe-container h1 {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 .subscribe-container p {
-    font-family: "Railway-medium";
+    font-family: "Raleway";
+    font-weight: 500;
+    font-weight: 500;
     font-size: 1rem;
     margin-bottom: 1.5rem;
     line-height: 1.5rem;
@@ -860,7 +852,9 @@ section.contact .map {
 }
 
 .contact-info>div>div>div span:first-child {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     margin-bottom: 0.25rem;
 }
 
@@ -1219,7 +1213,8 @@ footer .box p {
 .nav-background .mobile-nav ul li a {
     text-decoration: none;
     color: var(--secondary);
-    font-family: "Railway-medium";
+    font-family: "Raleway";
+    font-weight: 500;
 }
 
 .nav-background .mobile-nav ul li a:hover {
@@ -1239,14 +1234,17 @@ footer .box p {
 
 .nav-background .contact h5,
 .nav-background .time h5 {
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
+    font-weight: 700;
     margin-bottom: 0.25rem;
     font-size: 1rem;
 }
 
 .nav-background .contact h6,
 .nav-background .time h6 {
-    font-size: 0.75rem;
+    font-size: 0.73rem;
+    font-weight: 600;
 }
 
 .nav-background .cart {
@@ -1262,5 +1260,6 @@ footer .box p {
 .nav-background .cart a {
     color: var(--secondary);
     text-decoration: none;
-    font-family: "Railway-bold";
+    font-family: "Raleway";
+    font-weight: 700;
 }
